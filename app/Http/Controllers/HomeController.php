@@ -45,4 +45,9 @@ class HomeController extends Controller
     {
         return view('professor.analyticalByTurmas');
     }
+
+    public function showViewAnalyticalTurma01() 
+    {
+        return view('professor.analyticalByTurma01');
+    }
 }

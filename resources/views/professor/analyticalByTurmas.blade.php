@@ -18,7 +18,7 @@
                             <div class="card-header">
                                 <i class="fa fa-bar-chart"></i> Turma 1 - Língua Portuguesa
                             </div>
-                            <a class="card-body" href="#">
+                            <a class="card-body" href="{{ route('analyticalByTurma01') }}">
                                 <canvas id="myBarChart" width="100%" height="50"></canvas>
                             </a>
                         </div>

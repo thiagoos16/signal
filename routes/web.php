@@ -24,3 +24,4 @@ Route::get('/analyticalStudentByArea', 'HomeController@showViewAnalyticalStudent
 Route::get('/analyticalStudentByDisciplina', 'HomeController@showViewAnalyticalStudentByDisciplina')->name('analyticalStudentByDisciplina');
 
 Route::get('/analyticalByTurmas', 'HomeController@showViewAnalyticalTurmas')->name('analyticalByTurmas');
+Route::get('/analyticalByTurma01', 'HomeController@showViewAnalyticalTurma01')->name('analyticalByTurma01');
