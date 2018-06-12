@@ -30,4 +30,9 @@ class HomeController extends Controller
     {
         return view('estudante.mainAnalytical');
     }
+
+    public function showViewAnalyticalStudentByArea() 
+    {
+        return view('estudante.analyticalByArea');
+    }
 }
