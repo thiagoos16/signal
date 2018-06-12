@@ -21,3 +21,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/mainAnalyticalStudent', 'HomeController@showViewAnalyticalStudent')->name('mainAnalyticalStudent');
 Route::get('/analyticalStudentByArea', 'HomeController@showViewAnalyticalStudentByArea')->name('analyticalStudentByArea');
+Route::get('/analyticalStudentByDisciplina', 'HomeController@showViewAnalyticalStudentByDisciplina')->name('analyticalStudentByDisciplina');
