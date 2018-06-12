@@ -40,4 +40,9 @@ class HomeController extends Controller
     {
         return view('estudante.analyticalByDisciplina');
     }
+
+    public function showViewAnalyticalTurmas() 
+    {
+        return view('professor.analyticalByTurmas');
+    }
 }

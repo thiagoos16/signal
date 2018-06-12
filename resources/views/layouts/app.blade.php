@@ -52,7 +52,7 @@
                 @else
                     @if (Auth::user()->type == '1')
                         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="{{ route('analyticalByTurmas') }}">
                                 <i class="fa fa-fw fa-area-chart"></i>
                                 <span class="nav-link-text">Professor</span>
                             </a>
