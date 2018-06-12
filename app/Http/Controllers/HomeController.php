@@ -55,4 +55,9 @@ class HomeController extends Controller
     {
         return view('professor.analyticalByMetrica');
     }
+
+    public function showViewAnalyticalAvaliacaoMetrica() 
+    {
+        return view('professor.analyticalByAvaliacaoMetrica');
+    }
 }

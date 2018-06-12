@@ -60,7 +60,11 @@
                                         Aluno 1
                                     </a>
                                 </td>
-                                <td>8.0</td>
+                                <td>
+                                    <a href="{{ route('analyticalByAvaliacaoMetrica') }}" style="text-decoration:none;">
+                                        8.0
+                                    </a>
+                                </td>
                                 <td>7.0</td>
                                 <td></td>
                                 <td>7.5</td>
