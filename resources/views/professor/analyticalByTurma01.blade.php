@@ -27,7 +27,7 @@
                     </div>
 
                     <div class="col-xl-2 col-sm-6 mb-3">
-                        <a class="card text-white bg-primary o-hidden h-100" href="#" style="text-decoration:none;">
+                        <a class="card text-white bg-primary o-hidden h-100" href="{{ route('analyticalByMetrica') }}" style="text-decoration:none;">
                             <div class="card-body" style="padding:0.20rem">
                                 <div class="mr-1" style="text-align:center;">Média Geral do Desvio</div>
                             </div>
