@@ -19,6 +19,16 @@
     <link href="/datatables/dataTables.bootstrap4.css" rel="stylesheet">
     <!-- Custom styles for this template-->
     <link href="/css/sb-admin.css" rel="stylesheet">
+
+    <style>
+        .bg-orange {
+            background-color:#F38630;
+        }
+
+        .text-orange {
+            color:#F38630;
+        }
+    </style>
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
@@ -32,7 +42,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="{{ route('mainAnalyticalStudent') }}">
                         <i class="fa fa-fw fa-dashboard"></i>
                         <span class="nav-link-text">Estudantes</span>
                     </a>
