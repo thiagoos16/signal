@@ -40,15 +40,27 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+            <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">    
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
                     <a class="nav-link" href="{{ route('mainAnalyticalStudent') }}">
                         <i class="fa fa-fw fa-dashboard"></i>
                         <span class="nav-link-text">Estudantes</span>
                     </a>
                 </li>
+                @guest
+                
+                @else
+                    @if (Auth::user()->type == '1')
+                        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-fw fa-area-chart"></i>
+                                <span class="nav-link-text">Professor</span>
+                            </a>
+                        </li>
+                    @endif
+                @endguest
             </ul>
-            
+
             <ul class="navbar-nav sidenav-toggler">
                 <li class="nav-item">
                     <a class="nav-link text-center" id="sidenavToggler">
